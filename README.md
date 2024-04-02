@@ -20,6 +20,9 @@ Ensure you have Python installed on your system. Then run the following command 
 python bandwidth-monitor/bandwidth.py
 ```
 
+#### Output:
+![Bandwidth Monitor Screenshot](screenshots/Figure4.png)
+
 
 ### 2. Client-Server Connection
 
