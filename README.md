@@ -9,6 +9,12 @@ This repository contains two key projects demonstrating the power of socket prog
 
 The `bandwidth-monitor` directory houses a Python script (`bandwidth.py`) that provides real-time network bandwidth monitoring.
 
+#### Setup:
+```bash
+pip install -r requirements.txt
+```
+
+
 #### Features:
 - Real-time upload and download speeds
 - Graphical representation of network usage (Screenshots in the `ss` folder)
@@ -21,7 +27,7 @@ python bandwidth-monitor/bandwidth.py
 ```
 
 #### Output:
-![Bandwidth Monitor Screenshot](bandwidth-monitor/screenshots/Figure_4.png)
+![Bandwidth Monitor Screenshot](python-socket-programming/bandwidth-monitor/screenshots/Figure_4.png)
 
 
 ### 2. Client-Server Connection
@@ -42,9 +48,6 @@ Open another terminal window and start the client by running:
 ```bash
 python client.py
 ```
-
-### Installation Requirements
-Both projects require only Python to be installed on your system. No additional libraries are necessary, as they use the Python standard library.
 
 ### Future Developments
 A Command Line Interface (CLI) chat application built upon the client-server architecture for real-time communication.
