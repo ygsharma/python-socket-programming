@@ -2,6 +2,7 @@
 
 This repository contains two key projects demonstrating the power of socket programming in Python. It showcases a network bandwidth monitor and a basic client-server application using threading for concurrent connections.
 
+
 ## Projects
 
 ### Bandwidth Monitor
@@ -17,3 +18,30 @@ Ensure you have Python installed on your system. Then run the following command 
 
 ```bash
 python bandwidth-monitor/bandwidth.py
+```
+
+
+### 2. Client-Server Connection
+
+The `client-server` directory features a simple implementation of socket-based client and server programs, demonstrating basic network communication.
+
+#### Features:
+- Establish a socket connection between a server and multiple clients.
+- Utilize threading to manage multiple client connections simultaneously.
+
+#### How to Run:
+Launch the server by executing:
+```bash
+python server.py
+```
+
+Open another terminal window and start the client by running:
+```bash
+python client.py
+```
+
+### Installation Requirements
+Both projects require only Python to be installed on your system. No additional libraries are necessary, as they use the Python standard library.
+
+### Future Developments
+A Command Line Interface (CLI) chat application built upon the client-server architecture for real-time communication.
