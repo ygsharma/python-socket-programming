@@ -27,7 +27,7 @@ python bandwidth-monitor/bandwidth.py
 ```
 
 #### Output:
-![Bandwidth Monitor Screenshot](python-socket-programming/bandwidth-monitor/screenshots/Figure_4.png)
+![Bandwidth Monitor Screenshot](https://github.com/ygsharma/python-socket-programming/blob/main/bandwidth-monitor/screenshots/Figure_4.png)
 
 
 ### 2. Client-Server Connection
